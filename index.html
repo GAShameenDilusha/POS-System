@@ -2,21 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Assignment 11</title>
-
+    <title>Assignment_11</title>
     <link rel="stylesheet" href="assets/style/home.css">
     <link rel="stylesheet" href="assets/style/customer.css">
     <link rel="stylesheet" href="assets/style/item.css">
     <link rel="stylesheet" href="assets/style/orders.css">
     <link rel="stylesheet" href="assets/style/recent_orders.css">
 
+
     <link rel="stylesheet" href="assets/style/normalize.css">
 
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
 </head>
 <body>
-
 <section class="navigation">
 
 
@@ -62,7 +63,6 @@
 
 </section>
 
-
 <section id="home_main">
     <section id="home" class="home">
         <section id="left_side">
@@ -83,7 +83,6 @@
 
     </section>
 </section>
-
 
 <section id="customer" class="customer">
 
@@ -153,7 +152,6 @@
 
 </section>
 
-
 <section id="item" class="item">
 
     <section>
@@ -221,7 +219,6 @@
 
     </section>
 </section>
-
 
 <section id="order" class="order">
     <section>
@@ -317,6 +314,7 @@
 </section>
 
 
+
 <section class="order_details">
 
     <section class="order_details_cards" style="display: flex; flex-wrap: wrap; justify-content: center; position: relative; top: 100px;">
@@ -337,6 +335,29 @@
 
 </section>
 
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="controller/home_page_controller.js"></script>
+
+
+
+
+
+<script type="module" src="controller/customer_page_controller.js"></script>
+<script type="module" src="controller/item_page_controller.js"></script>
+<script type="module" src="controller/order_page_controller.js"></script>
+<script type="module" src="controller/recent_order_page_controller.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+
+</script>
 
 
 </body>
