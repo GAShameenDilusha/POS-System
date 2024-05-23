@@ -94,3 +94,13 @@
     opacity: 0.2;
 
 }
+
+.customer-section{
+    position: relative;
+    top: 30px;
+}
+
+.customer-img1{
+    position: relative;
+    top: 10px;
+}
