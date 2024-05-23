@@ -3,10 +3,10 @@ import {ItemModel} from "../model/ItemModel.js";
 
 export var customer_db = [
     new CustomerModel("C001", "Amal", "Panadura", "0718820985"),
-    new CustomerModel("C002", "Thesandu", "Panadura", "0718820985"),
-    new CustomerModel("C003", "Ramal", "Panadura", "0718820985"),
-    new CustomerModel("C004", "Namal", "Panadura", "0718820985"),
-    new CustomerModel("C005", "Dilusha", "Panadura", "0718820985")
+    new CustomerModel("C002", "Thesandu", "Negombo", "0767720985"),
+    new CustomerModel("C003", "Ramal", "Panadura", "0784120985"),
+    new CustomerModel("C004", "Namal", "Colombo", "0718820911"),
+    new CustomerModel("C005", "Dilusha", "Galle", "0778820985")
 
 ];
 export var item_db = [
