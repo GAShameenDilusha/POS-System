@@ -94,5 +94,14 @@
     right: 0;
     top: 20px;
     margin: auto;
+}
 
+.item-section{
+    position: relative;
+    top: 30px;
+}
+
+.item-img2{
+    position: relative;
+    top: 10px;
 }
