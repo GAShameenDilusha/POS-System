@@ -96,3 +96,8 @@ body {
 .navigation-set{
     margin-left: 20px;
 }
+
+.home-logo{
+    position: relative;
+    top: 50px;
+}
