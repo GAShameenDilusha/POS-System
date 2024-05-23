@@ -11,11 +11,11 @@ export var customer_db = [
 ];
 export var item_db = [
 
-    new ItemModel("I001", "Apple", 150.00, 100),
-    new ItemModel("I002", "Orange", 250.00, 50),
+    new ItemModel("I001", "Cake", 150.00, 100),
+    new ItemModel("I002", "Pen", 250.00, 50),
     new ItemModel("I003", "Banana", 50.00, 80),
-    new ItemModel("I004", "Pineapple", 350.00, 80),
-    new ItemModel("I005", "Grapes", 120.00, 10)
+    new ItemModel("I004", "Apple", 350.00, 80),
+    new ItemModel("I005", "Rollo", 120.00, 10)
 
 
 ];
