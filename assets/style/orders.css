@@ -133,3 +133,24 @@
 }#order_form>form>div:nth-child(4){
      position: relative;
  }
+
+ .add-to-cart{
+     position: relative;
+     top: 10px;
+ }
+
+ .remove{
+     position: relative;
+     top: 10px;
+ }
+
+ .total-textfield{
+     position: relative;
+     top: 14px;
+ }
+
+
+ .total-label{
+     position: relative;
+     top: 13px;
+ }
