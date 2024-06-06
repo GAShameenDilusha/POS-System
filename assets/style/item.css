@@ -105,3 +105,23 @@
     position: relative;
     top: 10px;
 }
+
+
+/* Styles for screens up to 768px */
+@media (max-width: 1024px) {
+    .item > section:first-child {
+        left: -80px;
+    }
+
+    .item > section:nth-child(2) {
+        right: -70px;
+    }
+
+    .item > section:nth-child(2) > table {
+        width: 100%;
+    }
+
+    #item_details > div > input {
+        width: 100%;
+    }
+}
