@@ -101,3 +101,68 @@ body {
     position: relative;
     top: 50px;
 }
+
+
+
+
+
+/*
+///////////////////////////////////////!**!*/
+
+/*#home_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+#left_side {
+    flex: 1;
+    text-align: center;
+}
+
+#right_side {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#right_side button {
+    margin-left: 1rem;
+}
+
+
+!* Styles for screens up to 768px *!
+@media (max-width: 1024px) {
+    #home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #left_side {
+        margin-bottom: 2rem;
+    }
+
+    #right_side {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #right_side button {
+        margin-bottom: 1rem;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    #right_side button:last-child {
+        margin-bottom: 0;
+    }
+}*/
