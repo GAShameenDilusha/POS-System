@@ -156,3 +156,41 @@
  }
 
 
+/* Styles for screens up to 768px */
+@media (max-width: 1024px) {
+    .order > section:first-child {
+        left: -80px;
+    }
+
+    .order > section:nth-child(2) {
+        right: -70px;
+    }
+
+    .order > section:nth-child(2) > table {
+        width: 100%;
+    }
+
+    #order_details .col-auto {
+        /*width: 100%;
+        margin-bottom: 1rem;*/
+    }
+
+    #order_details .col-auto:last-child {
+        margin-bottom: 0;
+
+    }
+
+    .order > section:nth-child(2) > section.row {
+        justify-content: center;
+    }
+
+    .order > section:nth-child(2) > section.row .col-auto {
+       /* width: 100%;
+        margin-bottom: 1rem;*/
+    }
+
+    .order > section:nth-child(2) > section.row .col-auto:last-child {
+        margin-bottom: 0;
+    }
+
+}
