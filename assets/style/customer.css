@@ -104,3 +104,28 @@
     position: relative;
     top: 10px;
 }
+
+/*
+@media all and (max-width: 768px) {
+    .Mcustomer{
+        left: -100px;
+    }
+}*/
+/* Styles for screens up to 768px */
+@media (max-width: 1024px) {
+    .customer > section:first-child {
+        left: -80px;
+    }
+
+    .customer > section:nth-child(2) {
+        right: -70px;
+    }
+
+    .customer > section:nth-child(2) > table {
+        width: 100%;
+    }
+
+    #customer_details > div > input {
+        width: 100%;
+    }
+}
